@@ -1,0 +1,134 @@
+<html lang="en">
+<link rel="stylesheet" href="css/reset.css" media="all">
+<link rel="stylesheet" href="css/style.css" media="all">
+<head>
+    <title>Praktikum bei Synflag</title>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="poweredtext">powered by synflag.com</div>
+<div class="parentbildoben"><img class="bildoben" src="img/38886.jpg" height="600" width="1200"/></div>
+<div class="oben">
+    <img class="headerlogo" src="img/synflaglogo.png" height="245" width="1000"
+         alt="This is the Synflag Logo"
+         title="Synflag Company"/>
+
+
+    <div class="css3box">
+        <h1><b>Tag 4</b></h1>
+    </div>
+
+
+    <div class="textbox">Am Donnerstag <span class="greentext">[03.02.2022]</span> beginnte mein Praktikum um <span
+            class="greentext">[10:00 Uhr]. </span> Ich habe an meiner Webseite weitergearbeitet und habe meine eigene
+        Synflag E-Mail bekommen. Ich habe auch ein Slack Konto erstellt. Später dann hatte ich Pause. Nach der Pause
+        habe ich dann die Grundlagen von PHP beigebracht bekommen und sie auch gut verstanden & angewendet. Dannach
+        haben wir den Stuhl aufgebaut. Um <span class="greentext">[18:00 Uhr]</span> hatte ich Feierabend.
+
+    </div>
+
+<div class="htmlbox">
+    <pre><code>echo '&lt;h1&gt;Variablenzuweisung $name=&quot;Baray&quot;;&lt;/h1&gt;';
+              $name=&quot;Baray&quot;;
+              print($name); // Ausgabe:Baray
+
+              echo &quot;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&quot;;
+
+              // Variable
+              $IRGENDWAS = 'IRGENDETWASANDERS2';
+
+              echo '&lt;h1&gt;Kontrollstrukturen&lt;/h1&gt;';
+              // Kontrollstrukturen
+              // IF ELSE
+              if ($IRGENDWAS == 'IRGENDETWASANDERS1') {
+                echo 'mache etwas1';
+                echo &quot;&lt;br /&gt;&lt;br /&gt;&quot;;
+              }
+              $IRGENDWAS = 'IRGENDETWASANDERS1';
+
+              if ($IRGENDWAS == 'IRGENDETWASANDERS2') {
+                echo 'mache etwas2';
+                echo &quot;&lt;br /&gt;&lt;br /&gt;&quot;;
+              } else {
+                echo 'mache etwas5';
+                echo &quot;&lt;br /&gt;&lt;br /&gt;&quot;;
+              }
+
+
+
+
+              echo '&lt;h2&gt;Kontrollstrukturen (SWITCH)&lt;/h2&gt;';
+              $IRGENDWAS = 'IRGENDETWASANDERS1';
+
+              switch ($IRGENDWAS) {
+                case 'IRGENDETWASANDERS1':
+                  echo 'mache etwas1';
+                  echo &quot;&lt;br /&gt;&lt;br /&gt;&quot;;
+                  $IRGENDWAS = 'IRGENDETWASANDERS3';
+                  break;
+                case 'IRGENDETWASANDERS2':
+                  echo 'mache etwas2';
+                  echo &quot;&lt;br /&gt;&lt;br /&gt;&quot;;
+                  break;
+                case 'IRGENDETWASANDERS3':
+                  echo 'mache etwas3';
+                  echo &quot;&lt;br /&gt;&lt;br /&gt;&quot;;
+                  break;
+              }
+
+
+
+              echo '&lt;h1&gt;Schleifen&lt;/h1&gt;';
+
+              echo '&lt;h2&gt;Schleifen (WHILE)&lt;/h2&gt;';
+              // Schleifen
+              $zahl = 1;
+
+              while ($zahl &lt;= 10)
+              {
+                echo &quot;$zahl&quot;;
+                $zahl++;
+                echo &quot;$zahl&quot;; // Ausgabe: 2
+                echo &quot;&lt;br /&gt;&lt;br /&gt;&quot;;
+
+              }
+
+
+              echo '&lt;h2&gt;Schleifen (FOR)&lt;/h2&gt;';
+              for ($i = 1; $i &lt;= 10; $i++) {
+
+                if($i == 4 || $i == 7) {
+                  continue;
+                }
+
+                echo $i; // Ausgabe: 1 // Ausgabe: 2 // Ausgabe: 3 // Ausgabe: 5// Ausgabe: 6 // Ausgabe: 8 !!
+                echo &quot;&lt;br /&gt;&lt;br /&gt;&quot;;
+              }</code></pre>
+
+
+</div>
+<div class="navigator">
+    <nav>
+        <ul>
+            <li><a href="index.html">Zurück</a></li>
+            <li><a href="tag1.html">Tag 1</a></li>
+            <li><a href="tag2.html">Tag 2</a></li>
+            <li><a href="tag3.html">Tag 3</a></li>
+            <li><a href="tag4.html">Tag 4</a></li>
+            <li><a href="tag5.html">Tag 5</a></li>
+            <li><a href="tag6.html">Tag 6</a></li>
+            <li><a href="tag7.html">Tag 7</a></li>
+            <li><a href="tag8.html">Tag 8</a></li>
+            <li><a href="tag9.html">Tag 9</a></li>
+            <li><a href="tag10.html">Tag 10</a></li>
+        </ul>
+    </nav>
+
+</div>
+
+</body>
+</html>
